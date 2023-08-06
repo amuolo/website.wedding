@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/hero.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -288,27 +288,28 @@ Hero
 .navigation {
   transition: all 300ms ease-in-out;
   position: fixed;
-  width: 100%;
+  width: 100%; 
   z-index: 999;
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(255, 255, 255, 0.9); // rgba(55, 36, 40, .88);
   z-index: 999;
-  width: 100%;
+  width: 100%; 
 }
 header {
   padding: 50px 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  border-bottom: solid 1px rgba(255, 255, 255, 0);  // AM
   position: relative;
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   transition: padding 300ms ease-in-out;
 
   a {
     color: $txt-light;
     text-transform: uppercase;
-    font-size: $nav-font-size;
+    font-size: 18px; // $nav-font-size; // AM: menu text
+    font-weight: $bold;
 
     &.login {
       margin-right: 20px;
@@ -328,7 +329,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: rgba(120, 40, 30, 0.5); // $txt-light; // AM: menu text
         padding-right: 25px;
 
         &:hover {
@@ -368,7 +369,7 @@ header {
   font-size: 30px;
   position: absolute;
   bottom: 30px;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
 }
 
