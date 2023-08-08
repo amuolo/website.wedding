@@ -280,9 +280,13 @@ Hero
   .hero-content {
     padding-top: 40%;
   }
-  .hero-content img {
-    width: 55%;
+  .hero-content img { // AM: names superposed on the top image
+    position: absolute;
+    width: 50%;
+    bottom: -380px;
+    left: 12%;
     margin-bottom: 12%;
+    transform: translateX(-50%);
   }
 }
 .navigation {
@@ -293,7 +297,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.9); // rgba(55, 36, 40, .88);
+  background-color: rgba(255, 255, 255, 0.9); // AM: background header
   z-index: 999;
   width: 100%; 
 }
