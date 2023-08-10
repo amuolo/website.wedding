@@ -257,9 +257,10 @@ Hero
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
+  background-position: 70% 50%;
+  position: relative; 
 
-  /*.rsvp-btn {
+  /*.rsvp-btn { // AM: button superposed on the background
     position: absolute;
     bottom: 100px;
     left: 50%;
@@ -280,10 +281,10 @@ Hero
   .hero-content {
     padding-top: 40%;
   }
-  .hero-content img { // AM: names superposed on the top image
+  .hero-content img { // AM: names superposed on the background
     position: absolute;
     width: 25%;
-    //bottom: -120%;//-470px;
+    bottom: -120%;
     left: 25%;
     margin-bottom: 12%;
     transform: translateX(-50%);
