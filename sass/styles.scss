@@ -291,7 +291,7 @@ Hero
   }
   @media screen and (max-width: 480px) {
     img {
-      bottom: 100%; // AM: hide the names for mobile
+      bottom: 100%; // AM: hide the names for mobile (a bit hacky...)
     }
   }
 }
