@@ -289,6 +289,11 @@ Hero
     margin-bottom: 12%;
     transform: translateX(-50%);
   }
+  @media screen and (max-width: 480px) {
+    img {
+      bottom: 100%; // AM: hide the names for mobile
+    }
+  }
 }
 .navigation {
   transition: all 300ms ease-in-out;
