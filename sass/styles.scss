@@ -329,7 +329,8 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 45px;
+    height: 45px; 
+    width: 45px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -368,7 +369,7 @@ header {
     display: inline-block;
   }
   .member-actions {
-    position: absolute;
+    position: relative; //absolute; // AM: seems to have no effect
     right: 0;
     top: 41px;
     transition: all 300ms ease-in-out;
